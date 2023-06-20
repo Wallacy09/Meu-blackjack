@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+#pcCartas img {
+    height: 180px;
+    width: 125px;
+    margin: 5px;
+    
+}
+
+#euCartas img {
+    height: 180px;
+    width: 125px;
+    margin: 5px;
+}
+
+#comprar {
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border-color:black ;
+    border-radius: 20px;
+    border: 0px;
+    font-style: monospace;
+    cursor: pointer;
+}
+
+#parar {
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border-color: black;
+    border-radius: 20px;
+    border: 0px;
+    font-size: monospace;
+    cursor: pointer;
+}
+
+#iniciar{
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-radius: 20px;
+    border: 0px;
+    font-size: monospace;
+    cursor: pointer;
+    
+}
+
+#resultado {
+    font-size: 35px;
+    color: red;
+}
+
+#titulo {
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: monospace;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #fff;
+    border-radius: 0.5em;
+
+}
+
+@keyframes animacao {
+    from {color: rgb(88, 31, 31);}
+    to {color: rgb(255, 0, 0);}
+}
+
+#apelido {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    color: rgb(46, 46, 46);
+    font-size: 10px;
+    font-size: verdana;
+}
+
